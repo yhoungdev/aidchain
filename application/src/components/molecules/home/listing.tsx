@@ -20,7 +20,7 @@ const SomeCharityListing = () => {
           ))}
         </div>
 
-        <div className='my-[3em] flex flex-col lg:flex-row gap-[1em] h-[400px] '>
+        <div className='my-[3em] flex flex-col lg:flex-row gap-[1em]  '>
           <div className='lg:w-[500px] flex flex-col gap-[1em]'>
             <div
               style={BORDER_STYLE}

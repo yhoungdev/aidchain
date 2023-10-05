@@ -1,8 +1,31 @@
+/* @import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,400,500,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+:root {
+    --font_clasha: 'Clash Display', sans-serif;
+}
+
 body  {
     background-color: #F9FDF7;
+    font-family: var(--font_clasha );
+} */
+
+
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@200,400,500,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font_clasha: 'Clash Display', sans-serif;
+}
+
+body {
+    background-color: #F9FDF7;
+    font-family: var(--font_clasha) !important;
 }
