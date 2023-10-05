@@ -5,7 +5,7 @@ import { HiMenu } from 'react-icons/hi';
 
 const Header = () => {
   return (
-    <div className=' bg-[#F8F7FD] container py-[1em] flex items-center justify-between'>
+    <div className=' container py-[1em] flex items-center justify-between'>
       <div className='flex  gap-[5em]'>
         <Logo />
         {/* Nav section */}

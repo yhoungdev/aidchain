@@ -5,7 +5,7 @@ interface IContainerProps {
 }
 
 const Container: FC<IContainerProps> = ({ children }: IContainerProps) => {
-  return <div>{children}</div>;
+  return <div className='container'>{children}</div>;
 };
 
 export default Container;

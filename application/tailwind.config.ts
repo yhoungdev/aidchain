@@ -18,15 +18,15 @@ const config: Config = {
         accent_yellow: '#FFEC8D'
       },
       container: {
+        center: true, 
         padding: {
           DEFAULT: '1rem',
           sm: '2rem',
           lg: '4rem', 
           xl: '5rem',
-          '2xl': '6rem',
+          '2xl': '8rem',
         },
       },
-
     },
   },
   plugins: [],
