@@ -5,8 +5,8 @@ import type { Metadata } from 'next';
 // const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'AidChain ',
-  description: `About
+  title: 'Aid Chain | AidChain Empowering Donors via Crypto ',
+  description: `
   AidChain Empowering Donors, Transforming Lives through Transparent Global Philanthropy`,
 };
 
