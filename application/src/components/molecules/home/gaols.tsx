@@ -6,7 +6,7 @@ import { BsArrowUpRight } from 'react-icons/bs';
 const DonationItem = () => {
   return (
     <div className='lg:w-[261px] lg:my-[1em] h-[263px] bg-white px-[1em] py-[1.5em]'>
-      <h1 className='text-[18px] my-[1em] lg:text-[22px]'>
+      <h1 className='text-[18px] font-[500] my-[1em] lg:text-[22px]'>
         Education Projects all Over
       </h1>
 
