@@ -8,7 +8,7 @@ const CharityListing = () => {
       <div className='my-[5em] flex gap-5 flex-wrap '>
         {[1, 3, 4, 5].map((_) => (
           <Fragment key={_}>
-            <CharityDonationBox />
+            <CharityDonationBox path='/explore/id' />
           </Fragment>
         ))}
       </div>
